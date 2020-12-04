@@ -6,8 +6,37 @@
 
 ---
 
+[376、摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)
+
+----
+
+[455、分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
+
+---
+
 [122、买卖股票的最佳时机2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 1. 贪心算法——将其分解为每一天的利润
 2. 动态规划——状态转移方程
+
+---
+
+[55、跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+
+1. 计算cover的最大值，注意i的取值范围
+
+---
+
+[45、跳跃游戏II](https://leetcode-cn.com/problems/jump-game-ii/)
+
+1. 我的思路，暴力解法，选每个节点可以在下一个到达最大位置的节点做跳跃
+
+2. 公众号和官方的题解是一个意思
+
+---
+
+[1005、K次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)
+
+1. 我的思路，先把绝对值最大的负数取反，如果k仍不为0，再把绝对值最小的数字反复取反，但我想到的是对数组直接进行排序，怎么找到绝对值最小的数字？
+2. 题解中是对数组按照**绝对值大小直接排序**，很容易找到绝对值最小的数字；
 
